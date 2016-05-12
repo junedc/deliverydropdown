@@ -12,6 +12,7 @@
 		// get the form values  
 		var name = $('#name').val();
 
+		
 		$.ajax({
 			type : "POST",
 			url : "/AjaxWithStruts1/AjaxSubmit.do",
